@@ -43,8 +43,8 @@ const App = () => {
         <div style={{ display: `flex`, justifyContent: `space-between` }}>
           <Form.Item
             label="Swarm Optimization Algorithm"
-            labelCol={{ span: 8 }}
-            wrapperCol={{ span: 8 }}
+            labelCol={{ span: 12 }}
+            wrapperCol={{ span: 12 }}
           >
             <Select defaultValue="pso" style={{ width: 192 }} onChnage={e=>{handleChangeSo(e)}}>
               <Option value="pso">PSO</Option>
@@ -55,8 +55,8 @@ const App = () => {
           </Form.Item>
           <Form.Item
             label="Benchmark Functions"
-            labelCol={{ span: 8 }}
-            wrapperCol={{ span: 8 }}
+            labelCol={{ span: 12 }}
+            wrapperCol={{ span: 12 }}
           >
             <Select defaultValue="1" style={{ width: 192 }} onChange={e=>{handleChangeFunc(e)}}>
               <Option value="1">Function 1</Option>

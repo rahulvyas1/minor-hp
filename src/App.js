@@ -31,7 +31,7 @@ const App = () => {
 
   const handleSubmit = (e)=>{
     e.preventDefault();
-    setAns(5)
+    setAns(3)
 
   }
 

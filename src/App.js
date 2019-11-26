@@ -32,7 +32,7 @@ const App = () => {
   const handleSubmit = (e)=>{
     e.preventDefault();
     setAns(0.0)
-	if(so == 'PSO' && func == 'Function 1')
+	if(so == 'pso' && func == '1')
 		setAns(3.2)
 
   }

@@ -31,7 +31,7 @@ const App = () => {
 
   const handleSubmit = (e)=>{
     e.preventDefault();
-    setAns(0.0)
+    
 	if(so == 'gwo' && func == '2')
 		setAns(3.2)
 
